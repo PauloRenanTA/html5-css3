@@ -1,0 +1,20 @@
+h1 {
+    width: 300px;
+    height: 50px;
+    background-color: lightgray;
+    border-width: 10px;
+    border-style: solid;
+    border-color: red;
+    padding: 20px;
+    outline-width: 30px;
+    outline-style: solid;
+    outline-color: blue;
+    margin: 50px;
+}
+
+/*É possível também usar shorthand para border e outline. Lembre de seguir a ordem width, style, color.*/
+
+h1 {
+    border: 10px solid red;
+    outline: 30px solid blue;
+}

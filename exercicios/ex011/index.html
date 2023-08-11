@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Verifique a responsividade das imagens a seguir</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png"> <!--Essa será a terceira opção-->
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png"> <!--Essa será a segunda opção-->
+        <img src="imagens/foto-g.png" alt="Imagem flexível"> <!--Essa será a imagem padrão-->
+    </picture>
+
+    <h1>Reproduzindo Áudios</h1>
+    <p>Vamos reproduzir o áudio abaixo</p>
+    <audio src="audios/Golden Cage - Jimena Contreras.mp3" controls loop></audio>
+</body>
+</html>

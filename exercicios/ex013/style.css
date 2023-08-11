@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, Helvetica, serif;
+    color: black;
+    background-image: linear-gradient(45deg, #2D9C5D, #9D2BEB, #5AE898);
+    background-attachment: fixed;
+}
+
+main {
+    background-color: white;
+    text-align: justify;
+    width: 800px;
+    padding: 15px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.616);
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(229, 255, 0);
+    font-size: 2em;
+    text-align: center;
+}
+/*O W3C recomenda a utilização do px ou do em para font-size*/
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 187, 60);
+    font-size: 1.5em;
+}
+
+p {
+    font: italic normal 16px 'Courier New', Courier, monospace; /*Aqui a ordem deve ser font-style, font-variant, font-weight, font-size e font-family*/
+    text-indent: 40px; /* Para espaçamento no início do parágrafo*/
+}
