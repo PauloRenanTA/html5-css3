@@ -1,6 +1,5 @@
-@charset "UTF-8"
 @font-face {
-    font-family: 'Idroid';
+    font-family: 'Idroid', sans-serif;
     src: url('fontes/idroid.otf') format('opentype');
     }
 
@@ -11,10 +10,14 @@
 
 body {
     background-color: #84e1ad;
+    margin: 0;
 }
 
 header {
+    min-width: 268px;
     padding: 20px;
+    padding-left: none;
+    padding-right: 70px;
     text-align: center;
     text-decoration: none;
     color: white;
@@ -39,7 +42,7 @@ header nav a {
     font-style: normal;
     font-weight: 600;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.09vmax;
+    font-size: 2.5vh;
     transition: background-color 0.5s, color 0.5s;
 }
 
@@ -57,6 +60,7 @@ header nav a:hover {
     padding-bottom: 0;
     color: white;
     text-align: center;
+    margin: auto;
     font-size: 3em;
     font-weight: normal;
     text-shadow: 1px 1px 1px black;
@@ -74,10 +78,15 @@ p {
     text-decoration: none;
 }
 
+.container {
+    margin: auto;
+}
+
 .parag1 {
     padding-top: 5px;
-    font-size: 13.7px;
+    font-size: 13px;
     text-align: center;
+    margin: auto;
     text-decoration: none;
     text-shadow: 1px 1px 1px black;
 }
@@ -88,10 +97,10 @@ p {
 
 main {
     background-color: white;
-    max-width: 900px;
-    min-width: 400px;
+    max-width: 800px;
+    min-width: 300px;
     margin: auto;
-    padding: 25px 20px;
+    padding: 25px 20px 25px 30px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     box-shadow: 0.5px 0.5px 10px black;
