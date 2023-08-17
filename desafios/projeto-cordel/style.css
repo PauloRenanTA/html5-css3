@@ -92,7 +92,7 @@ header > p > a:hover {
     font-size: var(--fontevmax);
     line-height: 2em;
     color: var(--cor-secundaria);
-    opacity: 0.7;
+    opacity: 0.8;
     background-color: var(--cor-background-sobreposto1);
     border-radius: 0.5rem;
 }
