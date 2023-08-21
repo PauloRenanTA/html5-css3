@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        body {
+            background-color: lightsalmon;
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+    <h1>Meu primeiro formulário</h1>
+    <!--O método padrão é o GET, isto é, recebe os dados. O outro método é o POST que está sendo informado abaixo. Com o posto você envia os dados do formulário para outro local.-->
+    <!--O GET só aceita até 3mil bytes, aproximadamente 3mil letras. Para dados mais sensíveis use o POST. Para dados muito mais sensíveis, tipo senha, número de cartão de crédito use HTTPS. Aprenda HTTPS.-->
+    <form method="post" action="cadastro.php" autocomplete="on">
+        <!--O label é importante para manter a relação entre o que está sendo pedido e o conteúdo a ser colocado pelo usuário. Sempre use label. O label também será importantíssimo no mobile first.-->
+        <p><label for="inome">Nome:</label> <input type="text" name="nome" id="inome"></p>
+        <p><label for="isobrenome">Sobrenome:</label> <input type="text" name="sobrenome" id="isobrenome"></p>
+        <p><input type="submit" value="Enviar"></p>
+    </form>
+</body>
+</html>

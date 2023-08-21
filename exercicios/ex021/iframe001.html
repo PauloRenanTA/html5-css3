@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframe</title>
+    <style>
+        iframe {
+            width: 400px;
+            height: 500px;
+            border: 2px solid black;
+            border-radius: 20px;
+            box-shadow: 1px 1px 2px black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Testando o uso de iframe</h1>
+    <hr>
+    <!--O tamanho padrão do iframe é 300x150, mas pode ser alterado com CSS-->
+    <p>Acessando o site do
+
+        <iframe src="https://paulorenanta.github.io/portfolio/projeto-cordel/index.html" frameborder="1" scolling="yes">
+            <a href="https://paulorenanta.github.io/portfolio/projeto-cordel/index.html" target="_blank">Meu Projeto Cordel</a>
+
+            <p>Infelizmente seu navegador não é compatível com isso!</p>
+        </iframe>
+
+            Projeto Cordel de Paulo Renan.
+    </p>
+
+    <p>O site do 
+       
+        <iframe src="https://www.google.com.br/" frameborder="0">   <!--Perceba que alguns sites não permitem o iframe por critérios de segurança-->
+
+            <p>Infelizmente seu navegador não é compatível com isso!</p>
+        </iframe>
+
+        também é muito legal</p>
+
+        <p>O repositório público de Paulo Renan no 
+        
+            <iframe src="https://paulorenanta.github.io/portfolio/" frameborder="0">
+
+            <a href="https://paulorenanta.github.io/portfolio/" target="_blank">GitHub</a>
+
+            <p>Infelizmente seu navegador não é compatível com isso!</p>
+            </iframe>
+        também é muito interessante</p>
+</body>
+</html>
